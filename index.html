@@ -4,43 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MrBook</title>
-
+    <title>Magic Books</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
     <link rel="stylesheet" href="style.css">
-
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-
 </head>
 <body>
-    <header>
-        <div class="container" id="nav-container">
-            <nav class="navbar navbar-expand-lg fixed-top">
-                <a href="#" class="navbar-brand">
-                    <img id="logo" src="img/logo.png" alt="Mr.Book"> Mr.Book
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <img src="img/logo.png" alt="logo" width="50px">
+          <a class="navbar-brand text-light p-3 " href="index.html">Magic Books</a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-end text-light" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light " href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categorias
                 </a>
-                <button class="navbar-toggleer" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle naigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link" id="home-menu">Home</a>
-                        <a class="nav-item nav-link" id="about-menu">A agência</a>
-                        <a class="nav-item nav-link" id="sevices-menu">SErviços</a>
-                        <a class="nav-item nav-link" id="team-menu">Time</a>
-                        <a class="nav-item nav-link" id="portfolio-menu">Projetos</a>
-                        <a class="nav-item nav-link" id="contact-menu">Contato</a>
-                    </div>
-                </div>
-            </nav>
+                <ul class="dropdown-menu text-light">
+                  <li><a class="dropdown-item" href="misterio.html">Mistério</a></li>
+                  <li><a class="dropdown-item" href="fantasia.html">Fantasia</a></li>
+                  <li><a class="dropdown-item" href="romance.html">Romance</a></li>
+                  <li><a class="dropdown-item" href="drama.html">Drama</a></li>
+                  <li><a class="dropdown-item" href="terror.html">Terror</a></li>
+                </ul>
+          </div>
         </div>
-    </header>
-    <script src="script.js"></script>
+      </nav>
+      <!--Carrosel-->
+      
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
