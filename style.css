@@ -83,7 +83,7 @@ body{
     border: 0;
     margin: auto;
     width: 16px;
-    transition: transform, 1s;
+    height: ;
 }
 .card-text{
     color: #34C5E4;
