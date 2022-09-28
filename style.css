@@ -72,7 +72,7 @@ body{
     padding: 0 6px;
 }
 .search-box:hover > .search-btn{
-    background: rgb(123, 252, 252);
+    background: rgb(234, 247, 247);
 
 }
 .lupa{
@@ -80,9 +80,12 @@ body{
 }
 
 .card{
-    border: 0;
+    border: ;
     margin: auto;
-    width: 16px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .card-text{
     color: #34C5E4;
@@ -98,9 +101,33 @@ body{
     background: white;
     border: 0;
 }
+.btn-vm{
+    background: rgb(252, 252, 94);
+    color: black;
+    border: 0;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .rodape{
     background: #34C5E4;
 }
+
+.linhaComTexto {
+    width: 95%;
+    margin: auto;
+    height: 20px;
+    border-bottom: 1px solid black;
+    text-align: center;
+  }
+  
+  .linhaComTexto > span {
+    font-size: 30px;
+    background-color: white;
+    padding: 0 10px;
+    color: #1a64c5;
+  }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
